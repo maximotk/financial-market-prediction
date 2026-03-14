@@ -1,0 +1,12 @@
+{
+  "experiment_name": "baseline_elastic_net_walk_forward",
+  "model_name": "elastic_net",
+  "feature_set_name": "baseline",
+  "n_features": 36,
+  "metrics": {
+    "one_shot_sharpe_lag0": -1.6,
+    "one_shot_turnover": 13.18,
+    "walk_forward_sharpe_lag0": -0.43,
+    "walk_forward_turnover": 12.15
+  }
+}
