@@ -1,0 +1,12 @@
+{
+  "experiment_name": "creative_alpha_plus_oi_xgboost_v1",
+  "model_name": "xgboost",
+  "feature_set_name": "creative_alpha_plus_oi",
+  "n_features": 28,
+  "metrics": {
+    "one_shot_sharpe_lag0": 3.9,
+    "one_shot_turnover": 14.82,
+    "walk_forward_sharpe_lag0": 2.0,
+    "walk_forward_turnover": 14.12
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "feature_columns": [
+    "alpha_oi_delta_1_rev",
+    "alpha_oi_delta_6_rev",
+    "alpha_oi_value_delta_1_rev",
+    "alpha_oi_value_delta_6_rev",
+    "alpha_oi_value_level_rev",
+    "alpha_oi_value_dist_mean_rev",
+    "alpha_oi_value_zscore_rev",
+    "alpha_oi_zscore_rev",
+    "alpha_oi_value_macd_rev",
+    "alpha_oi_macd_rev"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "experiment_name": "v2",
+  "random_seed": 0,
+  "paths": {
+    "data_dir": "data/all/",
+    "artifacts_dir": "artifacts",
+    "results_dir": "results",
+    "in_sample_filename": "data_in_sample.csv",
+    "test_filename": "data_test.csv"
+  },
+  "data": {
+    "datetime_col": null,
+    "index_col": 0,
+    "header_rows": [
+      0,
+      1
+    ]
+  },
+  "dates": {
+    "start_date_train": "2023-01-24",
+    "last_date_train": "2024-01-24",
+    "start_date_validate": "2024-01-25",
+    "last_date_validate": "2024-07-24"
+  },
+  "evaluation": {
+    "risk_free_rate_annual": 0.05,
+    "transaction_cost": 0.0,
+    "evaluation_lags": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      12
+    ],
+    "plot_option": "matplotlib",
+    "annualization_factor": 8760
+  },
+  "features": {
+    "feature_set_name": "oi_reversal",
+    "raw_fields": [
+      "return",
+      "close",
+      "nb_trades",
+      "volume_usd",
+      "funding_rate",
+      "open_interest_value"
+    ],
+    "feature_styles": [
+      "level",
+      "delta_1",
+      "shift_1",
+      "shift_6",
+      "mean_24",
+      "std_24"
+    ],
+    "use_engineered_features": false,
+    "engineered_feature_prefix": "feature",
+    "max_nb_features": 20,
+    "pct_engineered_features": 0.25,
+    "fillna_value": 0.0
+  },
+  "preprocessing": {
+    "method": "cross_sectional_rank_standardize",
+    "rank_to_pct": true,
+    "center_cross_sectionally": true,
+    "scale_cross_sectionally": true,
+    "fillna_value": 0.0,
+    "cast_column_names_to_str": true
+  },
+  "model": {
+    "model_name": "elastic_net",
+    "params": {
+      "alpha": 1e-05,
+      "l1_ratio": 0.5,
+      "fit_intercept": true,
+      "tol": 0.02,
+      "selection": "random",
+      "max_iter": 500,
+      "random_state": 0
+    }
+  },
+  "walk_forward": {
+    "enabled": true,
+    "retrain_frequency": "ME",
+    "train_window_days": 365,
+    "validation_window_days": 31,
+    "min_folds_before_start": 2,
+    "prediction_delay_hours": 1
+  }
+}

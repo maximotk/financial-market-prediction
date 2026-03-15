@@ -1,0 +1,12 @@
+{
+  "experiment_name": "teacher_mixed_plus_oi_bayesian_ridge_v1",
+  "model_name": "bayesian_ridge",
+  "feature_set_name": "teacher_mixed_plus_oi",
+  "n_features": 30,
+  "metrics": {
+    "one_shot_sharpe_lag0": 3.29,
+    "one_shot_turnover": 10.23,
+    "walk_forward_sharpe_lag0": 3.08,
+    "walk_forward_turnover": 8.91
+  }
+}

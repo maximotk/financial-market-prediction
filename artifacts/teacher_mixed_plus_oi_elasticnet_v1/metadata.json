@@ -1,0 +1,12 @@
+{
+  "experiment_name": "teacher_mixed_plus_oi_elasticnet_v1",
+  "model_name": "elastic_net",
+  "feature_set_name": "teacher_mixed_plus_oi",
+  "n_features": 30,
+  "metrics": {
+    "one_shot_sharpe_lag0": 3.18,
+    "one_shot_turnover": 10.95,
+    "walk_forward_sharpe_lag0": 2.97,
+    "walk_forward_turnover": 9.4
+  }
+}

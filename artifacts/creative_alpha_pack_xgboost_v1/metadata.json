@@ -1,0 +1,12 @@
+{
+  "experiment_name": "creative_alpha_pack_xgboost_v1",
+  "model_name": "xgboost",
+  "feature_set_name": "creative_alpha_pack",
+  "n_features": 18,
+  "metrics": {
+    "one_shot_sharpe_lag0": 1.93,
+    "one_shot_turnover": 15.12,
+    "walk_forward_sharpe_lag0": 1.72,
+    "walk_forward_turnover": 14.4
+  }
+}

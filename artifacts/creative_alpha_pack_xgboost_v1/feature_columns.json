@@ -1,0 +1,22 @@
+{
+  "feature_columns": [
+    "alpha_ccp",
+    "alpha_body_dir",
+    "alpha_oi_delta",
+    "alpha_oi_delta_z",
+    "alpha_oi_accel",
+    "alpha_idio_ret",
+    "alpha_ret2",
+    "alpha_ret6",
+    "alpha_fr_z",
+    "alpha_oi_vol",
+    "alpha_avg_trade",
+    "alpha_hl_z",
+    "alpha_vwap_dev",
+    "alpha_ccp4h",
+    "alpha_ccp6h",
+    "alpha_cs_vol",
+    "alpha_fr_level",
+    "alpha_oi_per_vol"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "experiment_name": "oi_reversal_bayesian_ridge_v1",
+  "model_name": "bayesian_ridge",
+  "feature_set_name": "oi_reversal",
+  "n_features": 10,
+  "metrics": {
+    "one_shot_sharpe_lag0": 2.28,
+    "one_shot_turnover": 11.4,
+    "walk_forward_sharpe_lag0": 2.53,
+    "walk_forward_turnover": 9.66
+  }
+}

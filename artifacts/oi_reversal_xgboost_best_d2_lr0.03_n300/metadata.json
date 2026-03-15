@@ -1,0 +1,12 @@
+{
+  "experiment_name": "oi_reversal_xgboost_best_d2_lr0.03_n300",
+  "model_name": "xgboost",
+  "feature_set_name": "oi_reversal",
+  "n_features": 10,
+  "metrics": {
+    "one_shot_sharpe_lag0": 2.72,
+    "one_shot_turnover": 12.07,
+    "walk_forward_sharpe_lag0": 2.89,
+    "walk_forward_turnover": 10.82
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "experiment_name": "precomputed80_plus_oi_bayesian_ridge_v1",
+  "model_name": "bayesian_ridge",
+  "feature_set_name": "precomputed_plus_oi",
+  "n_features": 90,
+  "metrics": {
+    "one_shot_sharpe_lag0": 17.78,
+    "one_shot_turnover": 11.35,
+    "walk_forward_sharpe_lag0": 17.2,
+    "walk_forward_turnover": 10.81
+  }
+}

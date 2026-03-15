@@ -1,0 +1,12 @@
+{
+  "experiment_name": "precomputed_plus_oi_xgboost_v1",
+  "model_name": "xgboost",
+  "feature_set_name": "precomputed_plus_oi",
+  "n_features": 30,
+  "metrics": {
+    "one_shot_sharpe_lag0": 6.4,
+    "one_shot_turnover": 10.45,
+    "walk_forward_sharpe_lag0": 6.9,
+    "walk_forward_turnover": 9.03
+  }
+}
